@@ -1,4 +1,3 @@
-```markdown
 # 🏆 Sports Text Classification using Advanced RNNs (LSTM & GRU)
 > **تحلیل مقایسه‌ای معماری‌های بازگشتی LSTM و GRU در طبقه‌بندی هوشمند متون خبری**
 
