@@ -56,7 +56,7 @@ Both models leverage an initial **300-dimensional continuous Embedding space** f
 2. **Optimized GRU**: A compact 2-gate cell (Reset, Update) utilizing a slightly stronger `Dropout` rate of `0.5` to avoid parameter overfitting.
 
 ### ⚙️ Training Configurations
-* **Optimizer**: Adam ($\eta = 0.001$, $\text{weight\_decay} = 1\times10^{-5}$)
+* **Optimizer**: Adam ((Learning Rate = 0.001, Weight Decay = 1e-5))
 * **Loss Function**: CrossEntropyLoss
 * **Batch Size**: 32 (Reproducible splitting: 70% Train, 15% Val, 15% Test)
 
